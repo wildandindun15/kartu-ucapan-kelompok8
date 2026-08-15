@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Surat Kecil Untukmu 💌</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="background">
+        <div class="bubble bubble1"></div>
+        <div class="bubble bubble2"></div>
+        <div class="bubble bubble3"></div>
+        <div class="bubble bubble4"></div>
+    </div>
+
+
+    <!-- =========================
+         HALAMAN INPUT NAMA
+    ========================== -->
+
+    <section class="name-section" id="nameSection">
+
+        <div class="name-box">
+
+            <div class="top-icon">
+                💌
+            </div>
+
+            <p class="small-title">
+                Ada sesuatu untukmu...
+            </p>
+
+            <h1>
+                Sebelum membuka<br>
+                surat ini
+            </h1>
+
+            <p class="description">
+                Masukkan nama panggilanmu
+                di bawah ini ya.
+            </p>
+
+
+            <div class="input-area">
+
+                <input
+                    type="text"
+                    id="nameInput"
+                    placeholder="Nama panggilanmu..."
+                    autocomplete="off"
+                >
+
+                <button id="openButton">
+                    Buka Surat ✨
+                </button>
+
+            </div>
+
+
+            <p
+                class="error-message"
+                id="errorMessage"
+            >
+                Nama kamu belum ditemukan 😭
+            </p>
+
+
+            <div class="hint">
+                Pastikan nama yang kamu masukkan
+                sesuai dengan nama capaska yang diberikan ya :)
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         HALAMAN AMplop
+    ========================== -->
+
+    <section
+        class="envelope-section"
+        id="envelopeSection"
+    >
+
+        <div class="envelope-container">
+
+            <p class="envelope-title">
+                Ada surat untukmu,
+            </p>
+
+            <h2 id="envelopeName">
+                Nama
+            </h2>
+
+            <p class="click-hint">
+                Klik amplop untuk membukanya
+            </p>
+
+
+            <div
+                class="envelope"
+                id="envelope"
+            >
+
+                <div class="envelope-back"></div>
+
+                <div class="letter-preview">
+
+                    <span>
+                        Untukmu ✨
+                    </span>
+
+                </div>
+
+                <div class="envelope-front"></div>
+
+                <div class="envelope-flap"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         HALAMAN SURAT
+    ========================== -->
+
+    <section
+        class="letter-section"
+        id="letterSection"
+    >
+
+        <div class="letter-card">
+
+            <!-- Dekorasi -->
+            <div class="decoration d1">
+                ✦
+            </div>
+
+            <div class="decoration d2">
+                ✧
+            </div>
+
+            <div class="decoration d3">
+                ♡
+            </div>
+
+
+            <!-- Header -->
+
+            <div class="letter-header">
+
+                <span class="line"></span>
+
+                <span class="star">
+                    ✦
+                </span>
+
+                <span class="line"></span>
+
+            </div>
+
+
+            <p class="for-text">
+                Untuk,
+            </p>
+
+
+            <!-- NAMA -->
+
+            <h1
+                class="student-name"
+                id="studentName"
+            >
+                Nama
+            </h1>
+
+
+            <div class="divider"></div>
+
+
+            <!-- JUDUL SURAT -->
+
+            <h2 id="letterTitle">
+                Terima kasih sudah berjuang! 🌱
+            </h2>
+
+
+            <!-- ISI SURAT -->
+
+            <div
+                class="letter-content"
+                id="letterContent"
+            >
+            </div>
+
+
+            <!-- QUOTE -->
+
+            <div
+                class="quote"
+                id="letterQuote"
+            >
+            </div>
+
+
+            <!-- PENUTUP -->
+
+            <div class="signature">
+
+                <p>
+                    Dengan penuh bangga,
+                </p>
+
+                <h3 id="senderName">
+                    Kakak
+                </h3>
+
+                <div class="heart">
+                    ♥
+                </div>
+
+            </div>
+
+
+            <!-- FOOTER -->
+
+            <div class="letter-footer">
+
+                <span>
+                    ✦
+                </span>
+
+                <span>
+                    A little letter for you
+                </span>
+
+                <span>
+                    ✦
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- BUTTON -->
+
+        <button
+            class="back-button"
+            id="backButton"
+        >
+            ← Kembali
+        </button>
+
+    </section>
+
+
+    <!-- CONFETTI -->
+
+    <div
+        id="confettiContainer"
+    ></div>
+
+
+    <!-- SCRIPT -->
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

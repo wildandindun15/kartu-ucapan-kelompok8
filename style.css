@@ -1,0 +1,1091 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family:
+        'DM Sans',
+        sans-serif;
+
+    min-height: 100vh;
+
+    overflow-x: hidden;
+
+    color: #444;
+}
+
+
+/* =========================
+   BACKGROUND
+========================= */
+
+.background {
+    position: fixed;
+
+    inset: 0;
+
+    z-index: -10;
+
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 20% 20%,
+            #fff1f5,
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 80% 80%,
+            #eee9ff,
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #fffaf5,
+            #f8f4ff
+        );
+}
+
+
+.bubble {
+    position: absolute;
+
+    border-radius: 50%;
+
+    opacity: 0.35;
+
+    filter: blur(2px);
+
+    animation:
+        floating 8s ease-in-out infinite;
+}
+
+
+.bubble1 {
+    width: 180px;
+    height: 180px;
+
+    background: #ffcddd;
+
+    left: 5%;
+    top: 5%;
+}
+
+
+.bubble2 {
+    width: 130px;
+    height: 130px;
+
+    background: #dcd2ff;
+
+    right: 8%;
+    top: 15%;
+
+    animation-delay: 1s;
+}
+
+
+.bubble3 {
+    width: 220px;
+    height: 220px;
+
+    background: #ffe4b5;
+
+    left: 15%;
+    bottom: -100px;
+
+    animation-delay: 2s;
+}
+
+
+.bubble4 {
+    width: 150px;
+    height: 150px;
+
+    background: #c9edff;
+
+    right: -40px;
+    bottom: 10%;
+
+    animation-delay: 3s;
+}
+
+
+@keyframes floating {
+
+    0%,
+    100% {
+        transform:
+            translateY(0);
+    }
+
+    50% {
+        transform:
+            translateY(-25px);
+    }
+}
+
+
+/* =========================
+   NAME SECTION
+========================= */
+
+.name-section {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 25px;
+}
+
+
+.name-box {
+
+    width:
+        min(500px, 100%);
+
+    padding:
+        50px 40px;
+
+    background:
+        rgba(255, 255, 255, 0.88);
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    box-shadow:
+        0 25px 70px
+        rgba(0, 0, 0, 0.10);
+
+    backdrop-filter:
+        blur(15px);
+
+    animation:
+        fadeUp 0.8s ease;
+}
+
+
+@keyframes fadeUp {
+
+    from {
+        opacity: 0;
+
+        transform:
+            translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+
+        transform:
+            translateY(0);
+    }
+}
+
+
+.top-icon {
+
+    font-size: 55px;
+
+    margin-bottom: 15px;
+
+    animation:
+        floating 3s infinite ease-in-out;
+}
+
+
+.small-title {
+
+    font-size: 14px;
+
+    color: #999;
+
+    margin-bottom: 10px;
+}
+
+
+.name-box h1 {
+
+    font-family:
+        'Playfair Display',
+        serif;
+
+    font-size:
+        clamp(30px, 6vw, 43px);
+
+    line-height: 1.25;
+
+    color: #3f3f3f;
+
+    margin-bottom: 18px;
+}
+
+
+.description {
+
+    color: #777;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    margin-bottom: 25px;
+}
+
+
+/* =========================
+   INPUT
+========================= */
+
+.input-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+
+#nameInput {
+
+    width: 100%;
+
+    padding:
+        15px 18px;
+
+    border:
+        1px solid #ddd;
+
+    border-radius: 12px;
+
+    outline: none;
+
+    font-family:
+        'DM Sans',
+        sans-serif;
+
+    font-size: 15px;
+
+    text-align: center;
+
+    transition:
+        all 0.3s ease;
+}
+
+
+#nameInput:focus {
+
+    border-color:
+        #d18ca7;
+
+    box-shadow:
+        0 0 0 4px
+        rgba(209, 140, 167, 0.12);
+}
+
+
+#openButton {
+
+    border: none;
+
+    padding:
+        15px;
+
+    border-radius: 12px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #d98eaa,
+            #bd7694
+        );
+
+    color: white;
+
+    font-family:
+        'DM Sans',
+        sans-serif;
+
+    font-weight: 600;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition:
+        all 0.3s ease;
+}
+
+
+#openButton:hover {
+
+    transform:
+        translateY(-3px);
+
+    box-shadow:
+        0 10px 25px
+        rgba(189, 118, 148, 0.3);
+}
+
+
+.error-message {
+
+    display: none;
+
+    color: #c45c72;
+
+    font-size: 13px;
+
+    margin-top: 15px;
+}
+
+
+.error-message.show {
+
+    display: block;
+
+    animation:
+        shake 0.4s ease;
+}
+
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform:
+            translateX(0);
+    }
+
+    25% {
+        transform:
+            translateX(-6px);
+    }
+
+    75% {
+        transform:
+            translateX(6px);
+    }
+}
+
+
+.hint {
+
+    margin-top: 22px;
+
+    font-size: 11px;
+
+    color: #aaa;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   ENVELOPE SECTION
+========================= */
+
+.envelope-section {
+
+    min-height: 100vh;
+
+    display: none;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+
+.envelope-container {
+
+    animation:
+        fadeUp 0.8s ease;
+}
+
+
+.envelope-title {
+
+    color: #999;
+
+    font-size: 14px;
+}
+
+
+.envelope-container h2 {
+
+    font-family:
+        'Playfair Display',
+        serif;
+
+    font-size:
+        clamp(35px, 7vw, 50px);
+
+    color: #3d3d3d;
+
+    margin:
+        5px 0 10px;
+}
+
+
+.click-hint {
+
+    font-size: 13px;
+
+    color: #999;
+
+    margin-bottom: 25px;
+}
+
+
+/* =========================
+   ENVELOPE
+========================= */
+
+.envelope {
+
+    position: relative;
+
+    width: 290px;
+
+    height: 195px;
+
+    margin:
+        0 auto;
+
+    cursor: pointer;
+
+    filter:
+        drop-shadow(
+            0 20px 30px
+            rgba(0, 0, 0, 0.15)
+        );
+
+    transition:
+        transform 0.3s ease;
+}
+
+
+.envelope:hover {
+
+    transform:
+        translateY(-8px)
+        scale(1.03);
+}
+
+
+.envelope-back {
+
+    position: absolute;
+
+    inset: 0;
+
+    background: #f3c5d6;
+
+    border-radius: 8px;
+
+    z-index: 1;
+}
+
+
+.letter-preview {
+
+    position: absolute;
+
+    width: 85%;
+
+    height: 150px;
+
+    left: 7.5%;
+
+    top: 15px;
+
+    background: white;
+
+    border-radius: 5px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-family:
+        'Playfair Display',
+        serif;
+
+    font-size: 20px;
+
+    color: #555;
+
+    z-index: 2;
+
+    transition:
+        transform 0.8s ease;
+}
+
+
+.envelope-front {
+
+    position: absolute;
+
+    inset: 0;
+
+    background: #e7aac3;
+
+    clip-path:
+        polygon(
+            0 0,
+            50% 55%,
+            100% 0,
+            100% 100%,
+            0 100%
+        );
+
+    border-radius: 8px;
+
+    z-index: 4;
+}
+
+
+.envelope-flap {
+
+    position: absolute;
+
+    inset: 0;
+
+    background: #f0bcd0;
+
+    clip-path:
+        polygon(
+            0 0,
+            50% 58%,
+            100% 0
+        );
+
+    transform-origin:
+        top;
+
+    z-index: 5;
+
+    transition:
+        transform 0.8s ease;
+}
+
+
+.envelope.open
+.envelope-flap {
+
+    transform:
+        rotateX(180deg);
+
+    z-index: 1;
+}
+
+
+.envelope.open
+.letter-preview {
+
+    transform:
+        translateY(-100px);
+
+    z-index: 6;
+}
+
+
+/* =========================
+   LETTER SECTION
+========================= */
+
+.letter-section {
+
+    min-height: 100vh;
+
+    display: none;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding:
+        50px 20px;
+}
+
+
+.letter-section.show {
+
+    display: flex;
+
+    animation:
+        fadeUp 1s ease;
+}
+
+
+/* =========================
+   LETTER CARD
+========================= */
+
+.letter-card {
+
+    position: relative;
+
+    width:
+        min(680px, 100%);
+
+    padding:
+        55px 60px;
+
+    background:
+        rgba(255, 255, 255, 0.96);
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow:
+        0 30px 80px
+        rgba(0, 0, 0, 0.12);
+
+    overflow: hidden;
+}
+
+
+.decoration {
+
+    position: absolute;
+
+    color: #d99ab3;
+
+    opacity: 0.35;
+
+    font-size: 30px;
+}
+
+
+.d1 {
+    top: 20px;
+    left: 25px;
+}
+
+
+.d2 {
+    top: 30px;
+    right: 25px;
+}
+
+
+.d3 {
+    bottom: 25px;
+    left: 25px;
+
+    font-size: 35px;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.letter-header {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-bottom: 30px;
+}
+
+
+.line {
+
+    width: 70px;
+
+    height: 1px;
+
+    background:
+        #d5a1b5;
+}
+
+
+.star {
+
+    color:
+        #c77e9c;
+
+    font-size: 20px;
+}
+
+
+.for-text {
+
+    font-size: 14px;
+
+    color: #999;
+}
+
+
+.student-name {
+
+    font-family:
+        'Playfair Display',
+        serif;
+
+    font-size:
+        clamp(38px, 8vw, 55px);
+
+    color: #383838;
+
+    margin:
+        3px 0 15px;
+}
+
+
+.divider {
+
+    width: 60px;
+
+    height: 3px;
+
+    margin:
+        0 auto 30px;
+
+    background:
+        #d994b0;
+
+    border-radius: 20px;
+}
+
+
+.letter-card h2 {
+
+    font-family:
+        'Playfair Display',
+        serif;
+
+    font-size:
+        clamp(20px, 4vw, 26px);
+
+    color: #494949;
+
+    margin-bottom: 25px;
+
+    line-height: 1.4;
+}
+
+
+/* =========================
+   LETTER CONTENT
+========================= */
+
+.letter-content {
+
+    color: #666;
+
+    font-size: 15px;
+
+    line-height: 1.9;
+
+    text-align: left;
+}
+
+
+.letter-content p {
+
+    margin-bottom: 18px;
+}
+
+
+.letter-content .highlight {
+
+    color:
+        #b75e80;
+
+    font-weight: 600;
+}
+
+
+/* =========================
+   QUOTE
+========================= */
+
+.quote {
+
+    margin:
+        30px 0;
+
+    padding:
+        20px 25px;
+
+    border-radius: 13px;
+
+    background:
+        #fff4f8;
+
+    color:
+        #8d6472;
+
+    font-family:
+        'Playfair Display',
+        serif;
+
+    font-style: italic;
+
+    line-height: 1.7;
+}
+
+
+/* =========================
+   SIGNATURE
+========================= */
+
+.signature {
+
+    margin-top: 35px;
+}
+
+
+.signature p {
+
+    font-size: 13px;
+
+    color: #999;
+}
+
+
+.signature h3 {
+
+    font-family:
+        'Playfair Display',
+        serif;
+
+    font-size: 23px;
+
+    color: #444;
+
+    margin-top: 6px;
+}
+
+
+.heart {
+
+    margin-top: 10px;
+
+    color:
+        #d56d91;
+
+    font-size: 25px;
+
+    animation:
+        heartbeat 1.5s infinite;
+}
+
+
+@keyframes heartbeat {
+
+    0%,
+    100% {
+        transform:
+            scale(1);
+    }
+
+    50% {
+        transform:
+            scale(1.2);
+    }
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.letter-footer {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-top: 35px;
+
+    color: #aaa;
+
+    font-size: 11px;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================
+   BACK BUTTON
+========================= */
+
+.back-button {
+
+    margin-top: 25px;
+
+    padding:
+        12px 22px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    background:
+        white;
+
+    color: #777;
+
+    cursor: pointer;
+
+    font-family:
+        'DM Sans',
+        sans-serif;
+
+    box-shadow:
+        0 8px 25px
+        rgba(0, 0, 0, 0.08);
+
+    transition:
+        all 0.3s ease;
+}
+
+
+.back-button:hover {
+
+    transform:
+        translateY(-3px);
+}
+
+
+/* =========================
+   CONFETTI
+========================= */
+
+#confettiContainer {
+
+    position: fixed;
+
+    inset: 0;
+
+    pointer-events: none;
+
+    overflow: hidden;
+
+    z-index: 999;
+}
+
+
+.confetti {
+
+    position: absolute;
+
+    top: -20px;
+
+    width: 8px;
+
+    height: 12px;
+
+    animation:
+        confettiFall
+        3s linear forwards;
+}
+
+
+@keyframes confettiFall {
+
+    0% {
+
+        transform:
+            translateY(0)
+            rotate(0);
+
+        opacity: 1;
+    }
+
+    100% {
+
+        transform:
+            translateY(110vh)
+            rotate(720deg);
+
+        opacity: 0;
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .name-box {
+
+        padding:
+            40px 25px;
+    }
+
+
+    .letter-card {
+
+        padding:
+            40px 25px;
+    }
+
+
+    .letter-content {
+
+        font-size: 14px;
+
+        line-height: 1.8;
+    }
+
+
+    .line {
+
+        width: 45px;
+    }
+
+
+    .envelope {
+
+        width: 250px;
+
+        height: 170px;
+    }
+
+}
