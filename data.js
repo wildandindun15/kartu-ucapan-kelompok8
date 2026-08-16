@@ -584,7 +584,7 @@ const students = {
         name: "Obet",
 
         title:
-        "Untuk Obet, Si Paling Penyemangat Iyaaa Banggg",
+        "Untuk Obet, Si Paling Iyaaaa Banggg",
 
         message: `
             <p>
