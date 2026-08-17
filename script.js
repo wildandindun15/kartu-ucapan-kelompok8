@@ -23,6 +23,7 @@ const envelope = document.getElementById("envelope");
 const envelopeName = document.getElementById("envelopeName");
 
 const studentName = document.getElementById("studentName");
+const studentPhoto = document.getElementById("studentPhoto");
 const letterTitle = document.getElementById("letterTitle");
 const letterContent = document.getElementById("letterContent");
 const letterQuote = document.getElementById("letterQuote");
@@ -113,6 +114,13 @@ function openLetter() {
     // Isi surat
     studentName.textContent =
         student.name;
+        
+    // Isi foto murid
+    studentPhoto.src =
+    student.photo;
+
+    studentPhoto.alt =
+    "Foto " + student.name;
 
     letterTitle.innerHTML =
         student.title;
