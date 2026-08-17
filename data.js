@@ -62,7 +62,7 @@ const students = {
         "Jangan cuma jadi orang yang bisa diandalkan, tapi jadilah orang yang mampu membuat orang lain merasa punya sandaran.",
 
         sender:
-        "@mwildan.as 🤝"
+        "@mwildan.as 🤍"
     },
 
 
@@ -220,7 +220,7 @@ const students = {
         "Apa yang sudah dimulai oleh orang-orang sebelum kita, suatu hari akan menjadi tanggung jawab kita untuk meneruskannya.",
 
         sender:
-        "@mwildan.as 🔥"
+        "@mwildan.as 🤍"
     },
 
 
@@ -307,7 +307,7 @@ const students = {
         "Pemimpin bukan hanya tentang berdiri paling depan, tapi tentang memastikan orang-orang di belakangnya tetap berjalan bersama.",
 
         sender:
-        "@mwildan.as 🤝"
+        "@mwildan.as 🤍"
     },
 
     /* =========================
@@ -367,7 +367,7 @@ const students = {
         "Yang membuat sebuah angkatan kuat bukan siapa yang berdiri paling depan, tapi bagaimana semuanya tetap berjalan bersama.",
 
         sender:
-        "@mwildan.as 🤝"
+        "@mwildan.as 🤍"
     },
 
 
@@ -410,26 +410,26 @@ const students = {
                 Menurut saya, sifat kayak gitu bakal sangat berguna
                 selama masa tugas nanti. Karena pada akhirnya,
                 perjalanan satu tahun ini bukan cuma tentang
-                seberapa hebat diri lu sendiri, tapi tentang
-                bagaimana lu bisa tetap hadir buat orang-orang
-                di sekitar lu.
+                seberapa hebat diri kamu sendiri, tapi tentang
+                bagaimana kamu bisa tetap hadir buat orang-orang
+                di sekitar kamu.
             </p>
 
             <p>
-                Jadi semangat buat menjalani masa tugas lu, Quel.
+                Jadi semangat buat menjalani masa tugas nya, Quel.
                 Jangan pernah kehilangan sifat baik dan kepedulian
-                yang selama ini lu punya.
+                yang selama ini kamu punya.
             </p>
 
             <p>
                 <strong>Selalu membersamai 26, yak Quel.</strong>
                 Jangan cuma tumbuh sendiri, tapi tumbuhlah
-                bareng angkatan lu.
+                bareng angkatan 26.
             </p>
 
             <p>
                 Semoga satu tahun ke depan jadi perjalanan yang
-                penuh cerita dan pengalaman baik buat lu. 🤍
+                penuh cerita dan pengalaman baik buat kamu. 
             </p>
         `,
 
@@ -452,12 +452,12 @@ const students = {
         photo: "images/yana.jpg",
 
         title:
-        "Untuk Yana, Salam, Sopan, Santuyy 😭",
+        "Untuk Yana, Salam, Sopan, Santuyy",
 
         message: `
             <p>
                 Yana, kalau ngomongin lu, yang langsung kebayang
-                ya <strong>salam, sopan, santuyy</strong> dah.
+                ya <strong>sopan, santuyy nya</strong> dah.
                 Wkwkwk. Pembawaan lu tuh memang punya kesan sendiri.
             </p>
 
@@ -474,7 +474,7 @@ const students = {
                 Tapi kalau ditanya hal yang paling gua inget
                 dari lu, kayaknya nggak mungkin nggak ngomongin
                 <strong>musang milik Yana yang lagi dititipin
-                ke temennya.</strong> 😭
+                ke temennya.</strong> 
             </p>
 
             <p>
@@ -508,7 +508,7 @@ const students = {
             </p>
 
             <p>
-                Semangat untuk perjalanan berikutnya, Yan. 🤍
+                Semangat untuk perjalanan berikutnya, Yan. 
             </p>
         `,
 
@@ -524,7 +524,7 @@ const students = {
         name: "Wija",
         photo: "images/wija.jpg",
         title:
-        "Untuk Wija, Junior Paling Nurut 😭🤍",
+        "Untuk Wija, Junior Paling Nurut",
 
         message: `
             <p>
@@ -547,7 +547,7 @@ const students = {
                 pastinya masa-masa jadi <strong>kerangka pasukan
                 bareng Tama dan kawan-kawan.</strong>
                 Pokoknya lu berdua sama Tama itu kayak paket
-                yang nggak boleh gua pisahin dah. 😭
+                yang nggak boleh gua pisahin dah...
             </p>
 
             <p>
@@ -573,7 +573,7 @@ const students = {
             <p>
                 Tetap jadi Wija yang gua kenal.
                 Selalu ada buat 26, dan terus bawa hal-hal baik
-                yang udah lu dapat selama perjalanan ini. 🤍
+                yang udah lu dapat selama perjalanan ini. 
             </p>
         `,
 
@@ -594,7 +594,7 @@ const students = {
         name: "Obet",
         photo: "images/obet.jpg",
         title:
-        "Untuk Obet, Si Paling Penyemangat 🔥",
+        "Untuk Obet, Si Paling Iyaaa Banggg",
 
         message: `
             <p>
@@ -654,7 +654,7 @@ const students = {
         "Kadang, satu orang yang tetap memberikan semangat bisa membuat satu kelompok kembali menemukan kekuatannya.",
 
         sender:
-        "@mwildan.as 🔥"
+        "@mwildan.as 🤍"
     },
 
 
@@ -667,7 +667,7 @@ const students = {
         name: "Riyan",
         photo: "images/riyan.jpg",
         title:
-        "Untuk Riyan, Tetap Ada Buat 26 🤝",
+        "Untuk Riyan, Tetap Ada dan Membersamai 26 🤝",
 
         message: `
             <p>
@@ -731,25 +731,25 @@ const students = {
         "Ketegasan akan membuatmu kuat, tapi kepedulianlah yang membuat orang lain mau berjalan bersamamu.",
 
         sender:
-        "@mwildan.as 🤝"
+        "@mwildan.as 🤍"
     },
 
-     "prissa": {
+     "prisa": {
 
-        name: "Prissa",
+        name: "Prisa",
 
-        photo: "images/prissa.jpg",
+        photo: "images/prisa.jpg",
 
         title:
-        "Untuk Prissa, Capo Satu yang Santuyy 😭🤍",
+        "Untuk Prisa, Capo Satu yang Santuyy",
 
         message: `
             <p>
-                Priss, kalau ngomongin lu kayaknya satu hal yang
+                Priss, kalau ngomongin kamu kayaknya satu hal yang
                 langsung kepikiran adalah
                 <strong>sopan santuyy.</strong>
                 Capo satu ini memang punya pembawaan yang
-                nyaman banget dah. Wkwkwk.
+                tenang banget dah. Wkwkwk.
             </p>
 
             <p>
@@ -761,30 +761,30 @@ const students = {
             </p>
 
             <p>
-                Salah satu hal yang paling gua inget dari lu
+                Salah satu hal yang paling saya inget dari kamu
                 pastinya <strong>capo yang selalu nyaman di
                 Kelompok 2</strong> inimahh.
-                Entah kenapa memang cocok aja rasanya lihat lu
+                Entah kenapa memang cocok aja rasanya lihat kamu
                 ada di kelompok itu.
             </p>
 
             <p>
-                Sekarang perjalanan lu bakal masuk ke tahap
-                yang baru. Gua cuma mau bilang,
+                Sekarang perjalanan kamu bakal masuk ke tahap
+                yang baru. Saya cuma mau bilang,
                 <strong>semangat ya, Priss, buat masa tugasnya.</strong>
             </p>
 
             <p>
-                Pokoknya aktif terus sampai tugas lu selesai nanti.
+                Pokoknya aktif terus sampai tugas kamu selesai nanti.
                 Jangan cuma hadir secara fisik, tapi benar-benar
-                ikut mengambil bagian dalam perjalanan angkatan lu.
+                ikut mengambil bagian dalam perjalanan angkatan kamu.
             </p>
 
             <p>
                 Tetap jadi Prissa yang sopan, santuyy,
                 dan bisa membawa suasana tetap nyaman.
                 Semoga satu tahun ke depan bisa jadi perjalanan
-                yang penuh pengalaman dan cerita buat lu.
+                yang penuh pengalaman dan cerita buat kamu.
             </p>
         `,
 
@@ -805,54 +805,54 @@ const students = {
         name: "Zizah",
         photo: "images/zizah.jpg",
         title:
-        "Untuk Zizah, Tetap Berikan yang Terbaik 🔥",
+        "Untuk Zizah, Tetap Selalu Menjadi yang Terbaik 🔥",
 
         message: `
             <p>
-                Zizah, dari awal gua lihat lu, yang paling
-                keliatan adalah lu punya pembawaan yang
+                Zizah, dari awal saya lihat kamu, yang paling
+                keliatan adalah kamu punya pembawaan yang
                 <strong>berani, tegas, tapi tetap kalem.</strong>
-                Kombinasi yang menurut gua bagus banget buat
+                Kombinasi yang menurut saya bagus banget buat
                 seseorang yang bakal menjalani masa tugas.
             </p>
 
             <p>
-                Selama latihan, satu hal yang selalu gua lihat
-                dari lu adalah lu selalu berusaha
+                Selama latihan, satu hal yang selalu saya lihat
+                dari kamu adalah kamu selalu berusaha
                 <strong>menampilkan yang terbaik.</strong>
                 Pokoknya kalau udah latihan, kasih yang terbaik
                 terus, Zahh.
             </p>
 
             <p>
-                Kalau soal hal yang paling gua inget dari lu,
+                Kalau soal hal yang paling saya inget dari kamu,
                 sebenarnya banyak sih.
                 Tapi salah satu yang paling gampang diinget
-                adalah lu yang hampir ke mana-mana selalu
+                adalah kamu yang hampir ke mana-mana selalu
                 sama <strong>Andra</strong> selama CAPASKA ini.
                 Partner banget dah kalian. Wkwkwk.
             </p>
 
             <p>
-                Sekarang masa tugas lu sudah di depan mata.
+                Sekarang masa tugas kamu sudah di depan mata.
                 Bakal ada banyak hal yang mungkin berbeda dari
-                apa yang selama ini lu temui selama latihan.
+                apa yang selama ini kamu temui selama latihan.
             </p>
 
             <p>
                 Jadi <strong>semangat terus buat masa tugasnya, Zahh.</strong>
-                Apapun yang lu lakukan nanti, pokoknya kasih
+                Apapun yang kamu lakukan nanti, pokoknya kasih
                 yang terbaik buat 26.
             </p>
 
             <p>
-                Tetap pertahankan keberanian dan ketegasan lu,
+                Tetap pertahankan keberanian dan ketegasan kamu,
                 tapi jangan lupa untuk tetap tenang ketika
                 menghadapi keadaan yang sulit.
             </p>
 
             <p>
-                Semoga lu bisa memberikan banyak hal baik
+                Semoga kamu bisa memberikan banyak hal baik
                 untuk 26 ke depannya dan menjadi salah satu
                 orang yang ikut membawa angkatan ini terus maju.
                 🔥
@@ -863,7 +863,7 @@ const students = {
         "Berikan yang terbaik bukan karena harus menjadi sempurna, tapi karena kamu tahu perjalanan ini layak diperjuangkan.",
 
         sender:
-        "@mwildan.as 🔥"
+        "@mwildan.as 🤍"
     },
 
 
@@ -880,25 +880,25 @@ const students = {
 
         message: `
             <p>
-                Vin, kalau ngomongin lu, yang paling kerasa
-                dari awal adalah pembawaan lu yang
+                Vin, kalau ngomongin kamu, yang paling kerasa
+                dari awal adalah pembawaan kamu yang
                 <strong>kalem banget.</strong>
-                Adem aja gitu lihat lu.
-                Apalagi kalau lagi senyum pas dipasukin.
+                Adem aja gitu liatnya dahh...
+                Apalagi kalau lagi senyum pas dipasukan.
                 Wkwkwk.
             </p>
 
             <p>
                 Selama latihan, progres yang kamu berikan sampai
-                sekarang menurut gua sudah sangat cukup meyakinkan
+                sekarang menurut saya sudah sangat cukup meyakinkan
                 sampai akhirnya kamu bisa ada di sini.
                 Semua proses yang kamu lewatin membawa kamu
                 sampai ke titik ini.
             </p>
 
             <p>
-                Tapi kalau ngomongin hal yang paling gua inget
-                dari lu, kayaknya nggak bisa jauh-jauh dari
+                Tapi kalau ngomongin hal yang paling saya inget
+                dari kamu, kayaknya nggak bisa jauh-jauh dari
                 <strong>Prissa.</strong>
                 Kemana-mana selalu sama Prissa dah,
                 apalagi kalau udah soal makanan.
@@ -906,10 +906,10 @@ const students = {
             </p>
 
             <p>
-                Sekarang lu bakal menjalani masa tugas yang
+                Sekarang kamu bakal menjalani masa tugas yang
                 panjangnya satu tahun ke depan.
                 Pasti bakal ada banyak cerita, pengalaman,
-                dan mungkin juga tantangan yang bakal lu temui.
+                dan mungkin juga tantangan yang bakal kamu temui.
             </p>
 
             <p>
@@ -920,15 +920,15 @@ const students = {
             </p>
 
             <p>
-                Dan satu hal yang paling gua harap dari lu:
+                Dan satu hal yang paling saya harap dari kamu:
                 <strong>senyum selalu pokoknya.</strong>
                 Jangan sampai kesibukan dan tekanan selama
-                masa tugas bikin lu kehilangan senyum yang
-                selama ini jadi salah satu ciri khas lu.
+                masa tugas bikin kamu kehilangan senyum yang
+                selama ini jadi salah satu ciri khas kamu.
             </p>
 
             <p>
-                Gua harap lu selalu ada di tiap perjalanan 26,
+                Saya harap kamu selalu ada di tiap perjalanan 26,
                 baik ketika keadaan lagi mudah maupun ketika
                 semuanya lagi terasa berat.
             </p>
