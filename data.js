@@ -947,7 +947,127 @@ const students = {
         "@mwildan.as 🤍"
     },
 
+"davin": {
+    name: "Davina & Kevin",
 
+    photo: "images/davina-kevin.jpg",
+
+    title: "Untuk adikku dan partner delapankuu🤍",
+
+    message: `
+        <p>
+            Davina, Kevin,
+        </p>
+
+        <p>
+            Kalau dipikir-pikir lagi, perjalanan Kelompok 8 ini
+            nggak akan pernah terasa sama kalau nggak ada kalian
+            berdua....
+        </p>
+
+        <p>
+            Gua mungkin nggak langsung ngomong, tapi gua
+            <strong>sayang banget sama kalian berdua.</strong>
+            Bukan cuma karena kalian partner gua sebagai pelatih,
+            tapi karena selama proses ini kalian benar-benar jadi
+            orang yang selalu ada buat gua....
+        </p>
+
+        <p>
+            Di saat gue capek, pusing, bingung harus ngapain,
+            bahkan ketika gue sendiri mulai kehilangan arah karna urusan kampus,
+            kalian tetap ada. Kadang lewat hal-hal kecil,
+            kadang lewat candaan sederhana, tapi buat gua
+            itu ngobatin banget.
+        </p>
+
+        <p>
+            Kita bertiga mungkin punya cara yang berbeda dalam
+            menghadapi semuanya. Ada saatnya kita ketawa bareng,
+            ada saatnya kita pusing bareng, ada saatnya kita sama-sama
+            capek dan nggak tahu harus mulai dari mana.
+            Tapi justru dari semua itu, gua ngerasa beruntung
+            banget bisa ngelewatin semuanya sama kalian.
+        </p>
+
+        <p>
+            Dan gua juga mau <strong>minta maaf</strong>.
+        </p>
+
+        <p>
+            Maaf kalau selama jadi partner kalian, gua masih banyak
+            kurangnya. Maaf kalau pernah ada perkataan gua yang
+            nggak enak buat kalian, keputusan gua yang bikin kalian kesel,
+            atau sikap gue yang mungkin tanpa sadar bikin kalian
+            capek.
+        </p>
+
+        <p>
+            Maaf kalau ada waktu-waktu di mana gua terlalu sibuk
+            sama pikiran gua sendiri sampai lupa kalau kalian juga
+            lagi berjuang.
+        </p>
+
+        <p>
+            Gua tahu mungkin nggak semua hal bisa gua balas
+            dengan kata-kata. Tapi gua benar-benar menghargai
+            setiap waktu, tenaga, kesabaran, dan perhatian yang
+            kalian kasih selama ini.
+        </p>
+
+        <p>
+            <strong>
+                Terima kasih karena tetap bertahan dan bareng sama gua.
+                Terima kasih karena selalu hadir.
+                Terima kasih karena nggak cuma jadi partner pelatih,
+                tapi juga jadi tempat gua bisa merasa nggak sendirian.
+            </strong>
+        </p>
+
+        <p>
+            Kalau nanti semua ini selesai dan kita udah nggak lagi
+            sibuk latihan, ngejar target, marah-marah soal barisan,
+            atau pusing mikirin anak-anak Kelompok 8, gue harap
+            satu hal nggak ikut selesai:
+            <strong>hubungan kita bertigaaaaaa.</strong>
+        </p>
+
+        <p>
+            Gua nggak tahu perjalanan kita setelah ini bakal seperti
+            apa. Tapi gua harap, sejauh apa pun kita nanti pergi,
+            kita tetap bisa saling ingat bahwa pernah ada satu masa
+            di mana kita bertiga berjuang bareng, capek bareng,
+            ketawa bareng, dan berusaha memberikan yang terbaik
+            untuk orang-orang yang kita sayang.
+        </p>
+
+        <p>
+            <strong>Dafina, Kevin, makasih yaaaaa<3.</strong>
+        </p>
+
+        <p>
+            Makasih udah jadi bagian penting dari perjalanan terakhir kepelatihan gua...
+        </p>
+
+        <p>
+            Dan kalau selama ini gua jarang ngomong secara langsung,
+            biar surat ini yang bilang:
+        </p>
+
+        <p>
+            <strong>
+                Gua sayang banget sama kalian berdua.
+                Gua bersyukur banget punya kalian.
+                Dan gua benar-benar nggak mau kehilangan kalian
+                setelah semua ini beress. 🤍
+            </strong>
+        </p>
+    `,
+
+    quote: "Sejauh apa pun kita nanti berjalan, semoga kita bertemu di titik tertinggi.",
+
+    sender: "Wildan8 Koor8 2k26🤘"
+},
 
     "yayash": {
 
