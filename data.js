@@ -948,7 +948,7 @@ const students = {
     },
 
 "davin": {
-    name: "Davina & Kevin",
+    name: "Dafina & Kevin",
 
     photo: "images/davina-kevin.jpg",
 
@@ -956,7 +956,7 @@ const students = {
 
     message: `
         <p>
-            Davina, Kevin,
+            Dafina, Kevin,
         </p>
 
         <p>
