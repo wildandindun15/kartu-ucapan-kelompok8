@@ -29,7 +29,21 @@ body {
     color: #444;
 }
 
+.group-photo {
+    width: 100%;
+    max-width: 420px;
+    height: 230px;
+    object-fit: cover;
 
+    border-radius: 18px;
+
+    margin: 20px auto;
+
+    display: block;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.12);
+}
 /* =========================
    BACKGROUND
 ========================= */
