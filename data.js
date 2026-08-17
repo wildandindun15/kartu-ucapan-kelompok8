@@ -522,7 +522,7 @@ const students = {
 "wija": {
 
         name: "Wija",
-        photo: "images/wija.jpg",
+        photo: "images/pengibar.jpg",
         title:
         "Untuk Wija, Junior Paling Nurut",
 
@@ -592,7 +592,7 @@ const students = {
     "obet": {
 
         name: "Obet",
-        photo: "images/obet.jpg",
+        photo: "images/pengibar.jpg",
         title:
         "Untuk Obet, Si Paling Iyaaa Banggg",
 
@@ -665,7 +665,7 @@ const students = {
     "riyan": {
 
         name: "Riyan",
-        photo: "images/riyan.jpg",
+        photo: "images/pengibar.jpg",
         title:
         "Untuk Riyan, Tetap Ada dan Membersamai 26 🤝",
 
