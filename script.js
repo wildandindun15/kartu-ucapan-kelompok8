@@ -169,6 +169,16 @@ openButton.addEventListener(
             "Tombol Buka Surat diklik"
         );
 
+        // Mulai musik
+        bgMusic.play()
+            .then(() => {
+                console.log("Musik berhasil diputar 🎵");
+            })
+            .catch((error) => {
+                console.log("Musik tidak dapat diputar:", error);
+            });
+
+        // Buka surat
         openLetter();
 
     }
@@ -200,17 +210,12 @@ nameInput.addEventListener(
 envelope.addEventListener(
     "click",
     function () {
-bgMusic.play().then(() => {
-    console.log("Musik berhasil diputar 🎵");
-}).catch((error) => {
-    console.log("Musik tidak dapat diputar:", error);
-});
+
         console.log(
             "Amplop diklik"
         );
 
         envelope.classList.add("open");
-
 
         setTimeout(
             function () {
