@@ -5,6 +5,13 @@
 console.log("script.js berhasil dimuat");
 
 console.log("Data students:", students);
+// ================================
+// MUSIK
+// ================================
+
+const bgMusic = document.getElementById("bgMusic");
+
+bgMusic.volume = 0.35;
 
 
 // ================================
@@ -193,7 +200,11 @@ nameInput.addEventListener(
 envelope.addEventListener(
     "click",
     function () {
-
+bgMusic.play().then(() => {
+    console.log("Musik berhasil diputar 🎵");
+}).catch((error) => {
+    console.log("Musik tidak dapat diputar:", error);
+});
         console.log(
             "Amplop diklik"
         );
