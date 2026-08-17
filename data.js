@@ -724,7 +724,7 @@ const students = {
         "@mwildan.as 🤝"
     },
 
-     "prissa": {
+     "prisa": {
 
         name: "Prisa",
 
