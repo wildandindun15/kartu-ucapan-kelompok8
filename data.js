@@ -726,10 +726,10 @@ const students = {
 
      "prissa": {
 
-        name: "Prissa",
+        name: "Prisa",
 
         title:
-        "Untuk Prissa, Capo Satu yang Santuyy 😭",
+        "Untuk Prisa, Capo Satu yang Santuyy 😭",
 
         message: `
             <p>
@@ -769,7 +769,7 @@ const students = {
             </p>
 
             <p>
-                Tetap jadi Prissa yang sopan, santuyy,
+                Tetap jadi Prisa yang sopan, santuyy,
                 dan bisa membawa suasana tetap nyaman.
                 Semoga satu tahun ke depan bisa jadi perjalanan
                 yang penuh pengalaman dan cerita buat kamu.
@@ -871,8 +871,8 @@ const students = {
                 Vin, kalau ngomongin kamu, yang paling kerasa
                 dari awal adalah pembawaan kamu yang
                 <strong>kalem banget.</strong>
-                Adem aja gitu lihat kamu.
-                Apalagi kalau lagi senyum pas dipasukan.
+                Adem aja gitu liatnya.
+                Apalagi senyum pas dipasukan.
                 Wkwkwk.
             </p>
 
