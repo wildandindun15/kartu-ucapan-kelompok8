@@ -23,7 +23,7 @@ const students = {
 
             <p>
                 Selama latihan juga ada satu hal yang kayaknya harus
-                selalu gua ingetin ke lu: <strong>lirik shaf, Jri 😭</strong>.
+                selalu gua ingetin ke lu: <strong>lirik shaf, Jri...</strong>.
                 Susah banget kayaknya mata lu diajak lirik shaf.
                 Tapi ya, terlepas dari itu semua, gua selalu bisa
                 ngandelin lu dalam hal apapun.
@@ -62,7 +62,7 @@ const students = {
         "Jangan cuma jadi orang yang bisa diandalkan, tapi jadilah orang yang mampu membuat orang lain merasa punya sandaran.",
 
         sender:
-        "Kakak 🤝"
+        "@mwildan.as 🤝"
     },
 
 
@@ -81,7 +81,7 @@ const students = {
 
         message: `
             <p>
-                Hiyya, dari awal gua lihat lu, kesan yang paling
+                Hiyya, dari awal saya ngeliat kamu, kesan yang paling
                 keliatan adalah anak yang <strong>kalem dan baik-baik</strong>.
                 Sopan, santun, salam, senyum, sapa.
                 Pokoknya vibes anak baiknya dapet banget.
@@ -89,7 +89,7 @@ const students = {
 
             <p>
                 Selama latihan, setiap materi yang diberikan juga
-                menurut gua gampang banget lu tangkep.
+                menurut saya gampang banget kamu tangkep.
                 Cepet ngerti dan bisa mengikuti dengan baik.
                 Walaupun ada satu hal yang kayaknya harus
                 selalu masuk daftar pengingat:
@@ -97,29 +97,29 @@ const students = {
             </p>
 
             <p>
-                Salah satu hal yang paling gua inget dari lu justru
+                Salah satu hal yang paling saya inget dari kamu justru
                 waktu <strong>LDK GC pas Gladitama</strong>.
-                Cara lu berkomunikasi dan menyelesaikan masalah
-                waktu itu menurut gua <strong>gooddd</strong>.
-                Dari situ keliatan kalau lu punya kemampuan
+                Cara kamu berkomunikasi dan menyelesaikan masalah
+                waktu itu menurut saya <strong>gooddd</strong>.
+                Dari situ keliatan kalau kamu punya kemampuan
                 buat menghadapi situasi dan mencari jalan keluar.
             </p>
 
             <p>
-                Sekarang lu bakal menjalani masa tugas selama
+                Sekarang kamu bakal menjalani masa tugas selama
                 satu tahun ke depan.
-                Gua nggak cuma mau bilang "semangat", karena
-                menurut gua perjalanan lu bakal jauh lebih besar
+                Saya nggak cuma mau bilang "semangat", karena
+                menurut saya perjalanan kamu bakal jauh lebih besar
                 dari sekadar menjalankan tugas.
             </p>
 
             <p>
-                Rangkul terus angkatan lu.
+                Rangkul terus angkatan 26.
                 Jangan cuma berkembang sendiri, tapi ajak
-                temen-temen lu buat berkembang bareng.
-                Karena salah satu ukuran keberhasilan lu nanti
-                bukan cuma tentang apa yang lu capai,
-                tapi juga tentang siapa saja yang bisa lu bawa
+                temen-temen kamu buat berkembang bareng.
+                Karena salah satu ukuran keberhasilan kamu nanti
+                bukan cuma tentang apa yang kamu capai,
+                tapi juga tentang siapa saja yang bisa kamu bawa
                 tumbuh bersama.
             </p>
 
@@ -131,7 +131,7 @@ const students = {
 
             <p>
                 Jalanin satu tahun ini sebaik mungkin, Hy.
-                Gua percaya lu bisa.
+                Saya percaya kamu bisa.
             </p>
         `,
 
@@ -139,7 +139,7 @@ const students = {
         "Tumbuhlah bersama orang-orang di sekitarmu, karena perjalanan yang hebat tidak pernah benar-benar dilakukan sendirian.",
 
         sender:
-        "Kakak 🤍"
+        "@mwildan.as 🤍"
     },
 
 
@@ -154,7 +154,7 @@ const students = {
         photo: "images/arsyad.jpg",
 
         title:
-        "Untuk Arsyad, si paling kocikk 😂",
+        "Untuk Arsyad, si paling kocikk",
 
         message: `
             <p>
@@ -220,7 +220,7 @@ const students = {
         "Apa yang sudah dimulai oleh orang-orang sebelum kita, suatu hari akan menjadi tanggung jawab kita untuk meneruskannya.",
 
         sender:
-        "Kakak 🔥"
+        "@mwildan.as 🔥"
     },
 
 
@@ -307,7 +307,7 @@ const students = {
         "Pemimpin bukan hanya tentang berdiri paling depan, tapi tentang memastikan orang-orang di belakangnya tetap berjalan bersama.",
 
         sender:
-        "Kakak 🤝"
+        "@mwildan.as 🤝"
     },
 
     /* =========================
@@ -367,7 +367,7 @@ const students = {
         "Yang membuat sebuah angkatan kuat bukan siapa yang berdiri paling depan, tapi bagaimana semuanya tetap berjalan bersama.",
 
         sender:
-        "Kakak 🤝"
+        "@mwildan.as 🤝"
     },
 
 
@@ -380,34 +380,34 @@ const students = {
         name: "Aquel",
         photo: "images/aquel.jpg",
         title:
-        "Untuk Aquel, Tetap Membersamai 26 🤍",
+        "Untuk Aquel, Putri Tangguh 26 🤍",
 
         message: `
             <p>
-                Quel, dari awal gua lihat lu, pembawaan lu tuh
+                Quel, dari awal saya lihat kamu, pembawaan kamu tuh
                 <strong>kalem dan tenang</strong> banget.
                 Nggak banyak ribut, tapi kelihatan bisa membawa
                 diri dengan baik.
             </p>
 
             <p>
-                Selama latihan, lu juga termasuk salah satu yang
+                Selama latihan, kamu juga termasuk salah satu yang
                 <strong>gampang banget diajarin.</strong>
-                Secara teknis lu tangkasss dah.
+                Secara teknis kamu tangkasss dah.
                 Dikasih materi bisa cepat nangkep dan langsung
                 berusaha menerapkannya.
             </p>
 
             <p>
-                Tapi satu hal yang paling gua inget dari lu justru
-                bukan cuma soal kemampuan lu selama latihan.
-                Lu tuh termasuk yang <strong>selalu gercep.</strong>
-                Dan yang lebih penting, lu juga selalu kelihatan
-                care sama temen-temen lu.
+                Tapi satu hal yang paling saya inget dari kamu justru
+                bukan cuma soal kemampuan kamu selama latihan.
+                Kamu tuh termasuk yang <strong>selalu gercep.</strong>
+                Dan yang lebih penting, kamu juga selalu kelihatan
+                care sama temen-temen.
             </p>
 
             <p>
-                Menurut gua, sifat kayak gitu bakal sangat berguna
+                Menurut saya, sifat kayak gitu bakal sangat berguna
                 selama masa tugas nanti. Karena pada akhirnya,
                 perjalanan satu tahun ini bukan cuma tentang
                 seberapa hebat diri lu sendiri, tapi tentang
@@ -437,7 +437,7 @@ const students = {
         "Kadang, hal terbaik yang bisa kita berikan kepada orang lain bukan jawaban, tapi kehadiran.",
 
         sender:
-        "Kakak 🤍"
+        "@mwildan.as 🤍"
     },
 
 
@@ -516,7 +516,7 @@ const students = {
         "Suatu hari nanti, yang paling dirindukan bukan kesibukannya, tapi cerita tentang orang-orang yang pernah berjalan bersama kita.",
 
         sender:
-        "Kakak 🤍"
+        "@mwildan.as 🤍"
     },
 
 "wija": {
@@ -581,7 +581,7 @@ const students = {
         "Apa yang kita terima dari orang sebelum kita, suatu hari akan menjadi sesuatu yang harus kita teruskan kepada orang setelah kita.",
 
         sender:
-        "Kakak 🤍"
+        "@mwildan.as 🤍"
     },
 
 
@@ -654,7 +654,7 @@ const students = {
         "Kadang, satu orang yang tetap memberikan semangat bisa membuat satu kelompok kembali menemukan kekuatannya.",
 
         sender:
-        "Kakak 🔥"
+        "@mwildan.as 🔥"
     },
 
 
@@ -731,7 +731,7 @@ const students = {
         "Ketegasan akan membuatmu kuat, tapi kepedulianlah yang membuat orang lain mau berjalan bersamamu.",
 
         sender:
-        "Kakak 🤝"
+        "@mwildan.as 🤝"
     },
 
      "prissa": {
@@ -792,7 +792,7 @@ const students = {
         "Nikmati setiap prosesnya, karena suatu hari nanti perjalanan yang terasa berat ini akan menjadi cerita yang paling dirindukan.",
 
         sender:
-        "Kakak 🤍"
+        "@mwildan.as 🤍"
     },
 
 
@@ -863,7 +863,7 @@ const students = {
         "Berikan yang terbaik bukan karena harus menjadi sempurna, tapi karena kamu tahu perjalanan ini layak diperjuangkan.",
 
         sender:
-        "Kakak 🔥"
+        "@mwildan.as 🔥"
     },
 
 
@@ -944,7 +944,7 @@ const students = {
         "Tetaplah tersenyum dalam setiap perjalanan, karena mungkin senyummu adalah alasan orang lain tetap bertahan.",
 
         sender:
-        "Kakak 🤍"
+        "@mwildan.as 🤍"
     },
 
 
