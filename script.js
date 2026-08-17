@@ -165,17 +165,15 @@ openButton.addEventListener(
     "click",
     function () {
 
-        console.log(
-            "Tombol Buka Surat diklik"
-        );
+        console.log("Tombol Buka Surat diklik");
 
-        // Mulai musik
+        // Mulai musik setelah user melakukan klik
         bgMusic.play()
             .then(() => {
                 console.log("Musik berhasil diputar 🎵");
             })
             .catch((error) => {
-                console.log("Musik tidak dapat diputar:", error);
+                console.log("Musik gagal diputar:", error);
             });
 
         // Buka surat
@@ -194,6 +192,14 @@ nameInput.addEventListener(
     function (event) {
 
         if (event.key === "Enter") {
+
+            bgMusic.play()
+                .then(() => {
+                    console.log("Musik berhasil diputar 🎵");
+                })
+                .catch((error) => {
+                    console.log("Musik gagal diputar:", error);
+                });
 
             openLetter();
 
